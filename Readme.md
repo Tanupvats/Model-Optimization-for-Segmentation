@@ -68,7 +68,7 @@ pip install -r requirements.txt
 The data preparation script loads and preprocesses the dataset.
 
 ```bash
-python scripts/data_preparation.py
+python data_preparation.py
 ```
 
 This script resizes the images, normalizes them, and prepares them for training.
@@ -78,7 +78,7 @@ This script resizes the images, normalizes them, and prepares them for training.
 Train the original model:
 
 ```bash
-python scripts/training.py
+python training.py
 ```
 
 This script defines and trains a U-Net model using the Oxford-IIIT Pet Dataset. The trained model is saved at `models/original_model.h5`.
@@ -88,7 +88,7 @@ This script defines and trains a U-Net model using the Oxford-IIIT Pet Dataset. 
 Apply unstructured pruning to the trained model:
 
 ```bash
-python scripts/pruning.py
+python pruning.py
 ```
 
 This script applies unstructured pruning to reduce the size of the model by removing less important weights. The pruned model is saved at `models/pruned_model.h5`.
@@ -98,7 +98,7 @@ This script applies unstructured pruning to reduce the size of the model by remo
 Apply different quantization techniques:
 
 ```bash
-python scripts/quantization.py
+python quantization.py
 ```
 
 This script converts the pruned model to different quantized versions:
@@ -111,7 +111,7 @@ This script converts the pruned model to different quantized versions:
 Evaluate the models in terms of size, inference time, and accuracy:
 
 ```bash
-python scripts/evaluation.py
+python evaluation.py
 ```
 
 This script evaluates the original, pruned, and quantized models, providing insights into model size, inference speed, and accuracy.
