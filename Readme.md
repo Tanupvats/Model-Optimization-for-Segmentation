@@ -45,22 +45,6 @@ Install the dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Setup
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/model-optimization-pipeline.git
-cd model-optimization-pipeline
-```
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### Data Preparation
