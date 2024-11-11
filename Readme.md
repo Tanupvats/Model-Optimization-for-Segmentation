@@ -120,7 +120,7 @@ This script evaluates the original, pruned, and quantized models, providing insi
 
 Below is an example of how the dataset looks:
 
-![Sample Data Image](images/dataset.jpg)
+![Sample Data Image](dataset.jpg)
 
 The image shows an input image and its corresponding segmentation mask from the Oxford-IIIT Pet Dataset.
 
